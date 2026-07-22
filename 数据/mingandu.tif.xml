@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="zh"><Esri><CreaDate>20221227</CreaDate><CreaTime>16053200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="d:\program files (x86)\arcgis\engine10.2\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20221227" Time="160532">RasterCalculator ""植被覆盖度.tif" *0.4+"植被带.tif" *0.4+"可侵蚀性因子.tif" *0.4" D:\huben\数据\mingandu.tif</Process></lineage></DataProperties></Esri></metadata>

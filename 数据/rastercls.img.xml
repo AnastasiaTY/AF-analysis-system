@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="zh"><Esri><CreaDate>20221227</CreaDate><CreaTime>16053200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="d:\program files (x86)\arcgis\engine10.2\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20221227" Time="160532">Reclassify GPL0 Value "0 1 1;1 2 2;2 3 3;3 30000 0" d:\huben\数据\rastercls.img DATA</Process></lineage></DataProperties></Esri></metadata>
