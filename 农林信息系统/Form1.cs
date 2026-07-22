@@ -18,6 +18,7 @@ using ESRI.ArcGIS.Display;
 using ESRI.ArcGIS.Geodatabase;
 using Microsoft.VisualBasic;
 using ESRI.ArcGIS.Output;
+using ESRI.ArcGIS.SpatialAnalyst;
 namespace 农林信息系统
 {
     public partial class Form1 : Form
@@ -57,11 +58,11 @@ namespace 农林信息系统
 
             //这个函数不会刷新，但是只对地图文档有用，shp无效
             {
-                for (int i = axMapControlZhu.Map.LayerCount - 1; i >= 0; i--)
+                for (int i = axMapControl1.Map.LayerCount - 1; i >= 0; i--)
                     // if (axMapControl1.Map.get_Layer(i).Visible==true)
-                    axMapControlYingyan.Map.AddLayer(axMapControlZhu.Map.get_Layer(i));
-                axMapControlYingyan.Extent = axMapControlYingyan.FullExtent;
-                axMapControlYingyan.Refresh();
+                    axMapControl2.Map.AddLayer(axMapControl1.Map.get_Layer(i));
+                axMapControl2.Extent = axMapControl2.FullExtent;
+                axMapControl2.Refresh();
 
             }
         }
@@ -70,13 +71,13 @@ namespace 农林信息系统
         {
             IPoint pPoint = new PointClass();
                 pPoint.PutCoords(e.mapX, e.mapY);
-                axMapControlZhu.CenterAt(pPoint);
-                axMapControlZhu.ActiveView.PartialRefresh(esriViewDrawPhase.esriViewGraphics, null, null);          
+                axMapControl1.CenterAt(pPoint);
+                axMapControl1.ActiveView.PartialRefresh(esriViewDrawPhase.esriViewGraphics, null, null);          
      }
     private void axMapControl1_OnExtentUpdated_1(object sender, IMapControlEvents2_OnExtentUpdatedEvent e)
     {
         IEnvelope pEnvelope = (IEnvelope)e.newEnvelope;//外接矩形
-        IGraphicsContainer pGraphicsContainer = axMapControlYingyan.Map as IGraphicsContainer;//告诉矩形在哪里画
+        IGraphicsContainer pGraphicsContainer = axMapControl2.Map as IGraphicsContainer;//告诉矩形在哪里画
         IActiveView pActiveView = pGraphicsContainer as IActiveView;//激活
         pGraphicsContainer.DeleteAllElements();
         IRectangleElement pRectangleEle = new RectangleElementClass();
@@ -112,9 +113,9 @@ namespace 农林信息系统
 
     private void 导出ToolStripMenuItem_Click(object sender, EventArgs e)
     {
-        int num = (int)Math.Round(this.axMapControlZhu.ActiveView.ScreenDisplay.DisplayTransformation.Resolution);
+        int num = (int)Math.Round(this.axMapControl1.ActiveView.ScreenDisplay.DisplayTransformation.Resolution);
 
-        CreateJPEGHiResolutionFromActiveView(this.axMapControlZhu.ActiveView, @"D:\文档\开发\农林信息系统\test.jpeg", 80);
+        CreateJPEGHiResolutionFromActiveView(this.axMapControl1.ActiveView, @"D:\文档\开发\农林信息系统\test.jpeg", 80);
         //ExportPDF();
         MessageBox.Show("完成");
     }
@@ -159,8 +160,8 @@ namespace 农林信息系统
         string fullpath=OpFileDialog.FileName;
         string path=fullpath.Substring(0,fullpath.LastIndexOf("\\"));//从路径fullpath中检索子字符串,从开始截取到最后一个“\”
         string name=fullpath.Substring(fullpath.LastIndexOf("\\")+1);//从最后一个“\”的后一个开始，到最后（省略不写，默认到最后）
-        axMapControlZhu.AddShapeFile(path,name);//AddShapeFile：加载shp文件的工具
-        axMapControlZhu.Refresh();//刷新一下界面
+        axMapControl1.AddShapeFile(path,name);//AddShapeFile：加载shp文件的工具
+        axMapControl1.Refresh();//刷新一下界面
     }
 }
 
@@ -195,8 +196,8 @@ namespace 农林信息系统
                 IRasterLayer pRasterLayer = pLayer as IRasterLayer;//用pLayer查询
                 pRasterLayer.CreateFromDataset(pRasterDataSet);//在栅格层中加载栅格数据
 
-                axMapControlZhu.AddLayer(pLayer);// prasterlayer是数据 但这个参数需要一个pLayer接口
-                axMapControlZhu.Refresh();
+                axMapControl1.AddLayer(pLayer);// prasterlayer是数据 但这个参数需要一个pLayer接口
+                axMapControl1.Refresh();
 
 
             }
@@ -234,7 +235,7 @@ namespace 农林信息系统
             }
 
             //书签进行重名判断
-            IMapBookmarks mapBookmarks = axMapControlZhu.Map as IMapBookmarks;
+            IMapBookmarks mapBookmarks = axMapControl1.Map as IMapBookmarks;
             IEnumSpatialBookmark enumSpatialBookmarks = mapBookmarks.Bookmarks;
             enumSpatialBookmarks.Reset();
             ISpatialBookmark pSpatialBookmark;
@@ -261,23 +262,23 @@ namespace 农林信息系统
 
             //创建一个新的书签并设置其位置范围为当前视图的范围
             IAOIBookmark pBookmark = new AOIBookmarkClass();
-            pBookmark.Location = this.axMapControlZhu.Extent;
+            pBookmark.Location = this.axMapControl1.Extent;
 
             //获得书签名
             pBookmark.Name = strbookname;
             //通过IMapBookmarks接口访问当前地图书签集，添加书签到地图的书签集中
-            IMapBookmarks pMapBookmarks = axMapControlZhu.Map as IMapBookmarks;
+            IMapBookmarks pMapBookmarks = axMapControl1.Map as IMapBookmarks;
             pMapBookmarks.AddBookmark(pBookmark);
         }
 
         private void 管理书签ToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            panelShuqian.Visible = !panelShuqian.Visible;
+            panel2.Visible = !panel2.Visible;
 
-            listBoxShuqian.Items.Clear();
+            listBox1.Items.Clear();
 
-            IMapBookmarks mapBookmarks = this.axMapControlZhu.Map as IMapBookmarks;
+            IMapBookmarks mapBookmarks = this.axMapControl1.Map as IMapBookmarks;
             IEnumSpatialBookmark enumSpatialBookmarks = mapBookmarks.Bookmarks;
 
             enumSpatialBookmarks.Reset();
@@ -285,7 +286,7 @@ namespace 农林信息系统
 
             while (pSpatialbookmark != null)
             {
-                listBoxShuqian.Items.Add(pSpatialbookmark.Name);
+                listBox1.Items.Add(pSpatialbookmark.Name);
                 pSpatialbookmark = enumSpatialBookmarks.Next();
             }
             
@@ -298,13 +299,13 @@ namespace 农林信息系统
 
         private void button5_Click(object sender, EventArgs e)
         {
-            IMapBookmarks mapBookmarks = this.axMapControlZhu.Map as IMapBookmarks;
+            IMapBookmarks mapBookmarks = this.axMapControl1.Map as IMapBookmarks;
             IEnumSpatialBookmark enumSpatialBookmarks = mapBookmarks.Bookmarks;
 
             enumSpatialBookmarks.Reset();
 
             //书签的名字“”，找书签
-            string bookmarkname = this.listBoxShuqian.SelectedItem.ToString();
+            string bookmarkname = this.listBox1.SelectedItem.ToString();
 
             ISpatialBookmark pSpatialbookmark = enumSpatialBookmarks.Next();
 
@@ -312,8 +313,8 @@ namespace 农林信息系统
             {
                 if (pSpatialbookmark.Name == bookmarkname)
                 {
-                    pSpatialbookmark.ZoomTo(this.axMapControlZhu.Map);
-                    this.axMapControlZhu.ActiveView.Refresh();
+                    pSpatialbookmark.ZoomTo(this.axMapControl1.Map);
+                    this.axMapControl1.ActiveView.Refresh();
                 }
                 pSpatialbookmark = enumSpatialBookmarks.Next();
             }      
@@ -321,7 +322,7 @@ namespace 农林信息系统
 
         private void button6_Click(object sender, EventArgs e)
         {
-            IMapBookmarks mapBookmarks = this.axMapControlZhu.Map as IMapBookmarks;
+            IMapBookmarks mapBookmarks = this.axMapControl1.Map as IMapBookmarks;
             mapBookmarks.RemoveAllBookmarks();
             管理书签ToolStripMenuItem_Click(sender, e);
         }
@@ -330,11 +331,11 @@ namespace 农林信息系统
 
         private void button7_Click(object sender, EventArgs e)
         {
-            IMapBookmarks mapBookmarks = this.axMapControlZhu.Map as IMapBookmarks;
+            IMapBookmarks mapBookmarks = this.axMapControl1.Map as IMapBookmarks;
             IEnumSpatialBookmark enumSpatialBookmarks = mapBookmarks.Bookmarks;
 
             //书签的名字“”，找书签
-            string bookmarkname = this.listBoxShuqian.SelectedItem.ToString();
+            string bookmarkname = this.listBox1.SelectedItem.ToString();
 
             ISpatialBookmark pSpatialbookmark = enumSpatialBookmarks.Next();
 
@@ -352,7 +353,7 @@ namespace 农林信息系统
 
         private void 水文分析ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            水文   fm = new 水文();
+            Honglao fm = new Honglao();
             fm.Show();
         }
 
@@ -370,184 +371,9 @@ namespace 农林信息系统
 
         private void 植被适宜性ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            植被_new fm = new 植被_new();
+            植被 fm = new 植被();
             fm.Show();
         }
-        string zhibei = "";
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    //实例化ShapefileWorkspaceFactory工作空间，打开指定Shape文件
-        //    IWorkspaceFactory pWorkspaceFactory = new ShapefileWorkspaceFactory();
-        //    //pWorkspaceFactory.OnCreate(axMapControl1.Object);
-        //    //pWorkspaceFactory.OnClick();
-        //    IFeatureWorkspace pFeatureWorkspace = (IFeatureWorkspace)pWorkspaceFactory.OpenFromFile(@"D:\KF_GIS\数据\四川省矢量范围\乐山市\峨眉山市_行政边界", 0);
-        //    //创建并实例化要素集
-        //    IFeatureClass pFeatureClass = pFeatureWorkspace.OpenFeatureClass("峨眉山市_行政边界线.shp");
-        //    IFeatureLayer pFeatureLayer = new FeatureLayer();
-        //    pFeatureLayer.FeatureClass = pFeatureClass;
-        //    pFeatureLayer.Name = pFeatureLayer.FeatureClass.AliasName;
-
-        //    if (zhibei == "")
-        //    {
-        //        axMapControlZhu.Map.AddLayer(pFeatureLayer);
-        //        axMapControlZhu.ActiveView.Refresh();
-        //    }
-        //    else
-        //        return;
-        //}
-
-      
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        //private void pictureBox2_Click(object sender, EventArgs e)
-        //{
-        //    //获取指定栅格文件名和文件路径
-        //    string pPath = @"D:\KF_GIS\数据\降水（2001-2015）";
-        //    string pFileName = "per2015.tif";
-        //    IWorkspaceFactory pWorkspaceFactory = new RasterWorkspaceFactory();
-        //    IRasterWorkspace pRasterWorkspace = (IRasterWorkspace)pWorkspaceFactory.OpenFromFile(pPath, 0);
-        //    IRasterDataset pRasterDataset = pRasterWorkspace.OpenRasterDataset(pFileName);
-        //    IRaster pRaster = pRasterDataset.CreateDefaultRaster();
-        //    IRasterLayer pRasterLayer = new RasterLayerClass();
-        //    pRasterLayer.CreateFromRaster(pRaster);
-        //    //来吧展示
-        //    axMapControlZhu.AddLayer(pRasterLayer);
-        //    axMapControlZhu.ActiveView.Refresh();
-        //}
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            axMapControlYingyan.ClearLayers();
-            IMapDocument pMapDocument = new MapDocument();
-            pMapDocument.Open(@"D:\KF_GIS\数据\峨眉山市_行政边界.mxd");//示例数据
-            axMapControlZhu.Map = pMapDocument.ActiveView.FocusMap;
-            axMapControlZhu.Map = pMapDocument.get_Map(0);//显示
-            axMapControlZhu.ActiveView.Refresh();
-            zhibei = "1";
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            PanelJichutuceng.Visible = !PanelJichutuceng.Visible;
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        //private void 植被分布_Click(object sender, EventArgs e)
-        //{
-        //   PanelZhibeifenbu.Visible = !PanelZhibeifenbu.Visible;
-        //}
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        //private void button10_Click(object sender, EventArgs e)
-        //{
-        //    IMapDocument pMapDocument = new MapDocument();
-        //    pMapDocument.Open(@"D:\KF_GIS\峨眉山4.mxd");//示例数据
-        //    axMapControlZhu.Map = pMapDocument.ActiveView.FocusMap;
-        //    axMapControlZhu.Map = pMapDocument.get_Map(0);//显示
-        //    axMapControlZhu.ActiveView.Refresh();
-        //    zhibei = "1";
-        //}
-
-        //private void button3_Click_1(object sender, EventArgs e)
-        //{
-        //    PanelHeliuxianzhuang.Visible = !PanelHeliuxianzhuang.Visible;
-        //}
-
-        //private void button4_Click_1(object sender, EventArgs e)
-        //{
-        //    PanelJiangshuichaxun.Visible = !PanelJiangshuichaxun.Visible;
-        //}
-
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void ButtonDaolu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonHeliufenbu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            axMapControlYingyan.ClearLayers();
-            IMapDocument pMapDocument = new MapDocument();
-            pMapDocument.Open(@"D:\KF_GIS\峨眉山4.mxd");//示例数据
-            axMapControlZhu.Map = pMapDocument.ActiveView.FocusMap;
-            axMapControlZhu.Map = pMapDocument.get_Map(0);//显示
-            axMapControlZhu.ActiveView.Refresh();
-            zhibei = "1";
-        }
-
-        private void button3_Click_2(object sender, EventArgs e)
-        {
-            axMapControlYingyan.ClearLayers();
-            IMapDocument pMapDocument = new MapDocument();
-            pMapDocument.Open(@"D:\KF_GIS\数据\p2015.mxd");//示例数据
-            axMapControlZhu.Map = pMapDocument.ActiveView.FocusMap;
-            axMapControlZhu.Map = pMapDocument.get_Map(0);//显示
-            axMapControlZhu.ActiveView.Refresh();
-            zhibei = "1";
-          
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ToolStripMenuItemShujuchuangkou_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void 数据看板ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
 
       
 

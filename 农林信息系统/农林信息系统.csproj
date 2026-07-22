@@ -76,11 +76,14 @@
     <Reference Include="ESRI.ArcGIS.DataSourcesRaster, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
+    <Reference Include="ESRI.ArcGIS.DataSourcesRasterUI, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
     <Reference Include="ESRI.ArcGIS.Display">
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="ESRI.ArcGIS.GeoAnalyst, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="ESRI.ArcGIS.Geodatabase, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
@@ -90,13 +93,6 @@
     <Reference Include="ESRI.ArcGIS.Geometry">
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
-    <Reference Include="ESRI.ArcGIS.Geoprocessing, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="ESRI.ArcGIS.Geoprocessor, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-    </Reference>
     <Reference Include="ESRI.ArcGIS.GlobeCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
@@ -104,11 +100,7 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="ESRI.ArcGIS.SpatialAnalyst, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="ESRI.ArcGIS.SpatialAnalystTools, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="ESRI.ArcGIS.System, Version=10.2.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -126,6 +118,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -134,14 +127,68 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>..\..\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WizardControls">
+      <HintPath>..\..\WizardControls.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CadWorkspaceFactoryClass.cs" />
+    <Compile Include="FifthPage_End.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FifthPage_End.Designer.cs">
+      <DependentUpon>FifthPage_End.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstPage_JS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstPage_JS.Designer.cs">
+      <DependentUpon>FirstPage_JS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForthPage_TR.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ForthPage_TR.Designer.cs">
+      <DependentUpon>ForthPage_TR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Honglao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Honglao.Designer.cs">
+      <DependentUpon>Honglao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SecondPage.Designer.cs">
+      <DependentUpon>SecondPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyWizardForm.Designer.cs">
+      <DependentUpon>MyWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NDVI年份.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NDVI年份.Designer.cs">
+      <DependentUpon>NDVI年份.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThirdPage_DX.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThirdPage_DX.Designer.cs">
+      <DependentUpon>ThirdPage_DX.cs</DependentUpon>
     </Compile>
     <Compile Include="土壤.cs">
       <SubType>Form</SubType>
@@ -154,12 +201,6 @@
     </Compile>
     <Compile Include="大气.Designer.cs">
       <DependentUpon>大气.cs</DependentUpon>
-    </Compile>
-    <Compile Include="权重.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="权重.Designer.cs">
-      <DependentUpon>权重.cs</DependentUpon>
     </Compile>
     <Compile Include="植被.cs">
       <SubType>Form</SubType>
@@ -179,17 +220,32 @@
     <Compile Include="LicenseInitializer.Designer.cs">
       <DependentUpon>LicenseInitializer.cs</DependentUpon>
     </Compile>
-    <Compile Include="水文.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="水文.Designer.cs">
-      <DependentUpon>水文.cs</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="FifthPage_End.resx">
+      <DependentUpon>FifthPage_End.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstPage_JS.resx">
+      <DependentUpon>FirstPage_JS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForthPage_TR.resx">
+      <DependentUpon>ForthPage_TR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Honglao.resx">
+      <DependentUpon>Honglao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondPage.resx">
+      <DependentUpon>SecondPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyWizardForm.resx">
+      <DependentUpon>MyWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NDVI年份.resx">
+      <DependentUpon>NDVI年份.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -201,20 +257,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ThirdPage_DX.resx">
+      <DependentUpon>ThirdPage_DX.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="土壤.resx">
       <DependentUpon>土壤.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="大气.resx">
       <DependentUpon>大气.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="权重.resx">
-      <DependentUpon>权重.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="植被.resx">
       <DependentUpon>植被.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="水文.resx">
-      <DependentUpon>水文.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -247,6 +300,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
