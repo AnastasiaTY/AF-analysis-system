@@ -34,133 +34,33 @@ D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统
 D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
 D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
 D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
-D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
 D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.exe
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\bin\Debug\农林信息系统.exe
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\bin\Debug\农林信息系统.pdb
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\框架.Form3.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-C:\Users\12782\Desktop\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.exe
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\bin\Debug\农林信息系统.exe
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\bin\Debug\农林信息系统.pdb
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\框架.Form3.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-C:\Users\Echo\Desktop\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.exe
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\bin\Debug\农林信息系统.exe
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\bin\Debug\农林信息系统.pdb
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\框架.Form3.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-D:\大三上\新建文件夹\农林\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.exe
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.exe
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.pdb
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\框架.Form3.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-C:\Users\12782\Desktop\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.exe
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.exe
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.pdb
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\框架.Form3.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-D:\cg\新建文件夹 (2)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.exe
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.exe
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.pdb
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\框架.Form3.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-C:\Users\12782\Desktop\新建文件夹 (3)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.exe
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\框架.Form3.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.权重.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.植被_new.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.exe
-G:\gis开发数据\新建文件夹(1)(1)\新建文件夹\农林信息系统\bin\Debug\农林信息系统.pdb
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.exe
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.exe
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\bin\Debug\农林信息系统.exe
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\bin\Debug\农林信息系统.pdb
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\框架.Form3.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.权重.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.植被_new.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-G:\gis开发数据\新建文件夹(1)(1)\农林信息系统\系统\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.exe
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.pdb
-D:\huben\系统\农林信息系统\bin\Debug\农林信息系统.exe
-D:\huben\系统\农林信息系统\bin\Debug\农林信息系统.pdb
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\框架.Form3.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.权重.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.植被_new.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.水文.resources
-D:\huben\系统\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache
+D:\KF_GIS\农林信息系统\农林信息系统\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+D:\KF_GIS\农林信息系统\农林信息系统\bin\Debug\WizardControls.dll
+D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.FirstPage_JS.resources
+D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.SecondPage_JY.resources
+D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.FifthPage_End.resources
+D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.ForthPage_TR.resources
+D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.ThirdPage_DX.resources
+D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.水土流失敏感性评价.resources
+D:\KF_GIS\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.Honglao.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.exe
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.pdb
+D:\huben\农林信息系统\农林信息系统\bin\Debug\农林信息系统.exe
+D:\huben\农林信息系统\农林信息系统\bin\Debug\农林信息系统.pdb
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.csprojResolveAssemblyReference.cache
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.FifthPage_End.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.FirstPage_JS.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.Form1.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\框架.Form3.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.ForthPage_TR.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.Honglao.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.SecondPage_JY.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.水土流失敏感性评价.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.NDVI年份.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.Properties.Resources.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.ThirdPage_DX.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.土壤.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.大气.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.植被.resources
+D:\huben\农林信息系统\农林信息系统\obj\x86\Debug\农林信息系统.csproj.GenerateResource.Cache

@@ -31,55 +31,60 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ToolStripMenuItemShujuchuangkou = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.数据看板ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemZhuangtixinxi = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemZhubeishiyixing = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemTuranqinranxing = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemDaqiwuranjiance = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemShuiwenfenxi = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemBangzhuwenjian = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemJianyi = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemZhongzhijianyi = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItemBangzhushipin = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.数据窗口ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.专题信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.植被适宜性ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.土壤侵蚀性ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.大气污染检测ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.水文分析ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.建议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.种植建议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.帮助视频ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.地图ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.导出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.添加数据ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.加载shapefile文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.加载JPG文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.书签ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.新增书签ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.管理书签ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.量测ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.距离量测ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.面积量测ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.axToolbarControl1 = new ESRI.ArcGIS.Controls.AxToolbarControl();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.axMapControlYingyan = new ESRI.ArcGIS.Controls.AxMapControl();
-            this.groupBoxJichumianban = new System.Windows.Forms.GroupBox();
-            this.PanelJichutuceng = new System.Windows.Forms.Panel();
+            this.axMapControl2 = new ESRI.ArcGIS.Controls.AxMapControl();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.ButtonXingzhengfanwei = new System.Windows.Forms.Button();
-            this.axLicenseControl1 = new ESRI.ArcGIS.Controls.AxLicenseControl();
-            this.panelShuqian = new System.Windows.Forms.Panel();
-            this.buttonYichusuoxuan = new System.Windows.Forms.Button();
-            this.buttonYichuquanbu = new System.Windows.Forms.Button();
-            this.buttonDingwei = new System.Windows.Forms.Button();
-            this.listBoxShuqian = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.axMapControlZhu = new ESRI.ArcGIS.Controls.AxMapControl();
-            this.axLicenseControl = new ESRI.ArcGIS.Controls.AxLicenseControl();
+            this.axMapControl1 = new ESRI.ArcGIS.Controls.AxMapControl();
+            this.axLicenseControl1 = new ESRI.ArcGIS.Controls.AxLicenseControl();
+            this.axLicenseControl2 = new ESRI.ArcGIS.Controls.AxLicenseControl();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axToolbarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
@@ -88,249 +93,291 @@
             this.splitContainer3.Panel1.SuspendLayout();
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axMapControlYingyan)).BeginInit();
-            this.groupBoxJichumianban.SuspendLayout();
-            this.PanelJichutuceng.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axMapControl2)).BeginInit();
+            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axMapControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).BeginInit();
-            this.panelShuqian.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.axMapControlZhu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.Controls.Add(this.splitContainer1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1432, 706);
+            this.panel1.Size = new System.Drawing.Size(1146, 571);
             this.panel1.TabIndex = 0;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(13, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.splitContainer1.Panel1.Controls.Add(this.panel3);
-            this.splitContainer1.Panel1.Controls.Add(this.panel2);
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(87)))), ((int)(((byte)(48)))));
+            this.splitContainer1.Panel1.Controls.Add(this.dateTimePicker1);
+            this.splitContainer1.Panel1.Controls.Add(this.menuStrip1);
+            this.splitContainer1.Panel1.Controls.Add(this.menuStrip2);
+            this.splitContainer1.Panel1.Controls.Add(this.axToolbarControl1);
             this.splitContainer1.Panel1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
             // 
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1502, 1051);
-            this.splitContainer1.SplitterDistance = 78;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(1146, 571);
+            this.splitContainer1.SplitterDistance = 76;
             this.splitContainer1.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.ForestGreen;
-            this.panel3.Controls.Add(this.dateTimePicker1);
-            this.panel3.Controls.Add(this.textBox2);
-            this.panel3.Controls.Add(this.menuStrip1);
-            this.panel3.Location = new System.Drawing.Point(77, 23);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1439, 54);
-            this.panel3.TabIndex = 1;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.CalendarForeColor = System.Drawing.Color.Transparent;
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Transparent;
-            this.dateTimePicker1.CalendarTitleBackColor = System.Drawing.Color.Transparent;
-            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.Transparent;
-            this.dateTimePicker1.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(1096, 13);
+            this.dateTimePicker1.Location = new System.Drawing.Point(925, 23);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 28);
-            this.dateTimePicker1.TabIndex = 5;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.ForestGreen;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("黑体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(29, 15);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(169, 27);
-            this.textBox2.TabIndex = 5;
-            this.textBox2.TabStop = false;
-            this.textBox2.Text = "农林信息系统";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.dateTimePicker1.Size = new System.Drawing.Size(159, 29);
+            this.dateTimePicker1.TabIndex = 2;
             // 
             // menuStrip1
             // 
             this.menuStrip1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(87)))), ((int)(((byte)(48)))));
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(0, 2, 0, 2);
+            this.menuStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemShujuchuangkou,
-            this.ToolStripMenuItemZhuangtixinxi,
-            this.ToolStripMenuItemBangzhuwenjian});
-            this.menuStrip1.Location = new System.Drawing.Point(454, 10);
+            this.数据窗口ToolStripMenuItem,
+            this.专题信息ToolStripMenuItem,
+            this.帮助文件ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(417, 23);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(372, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(407, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // ToolStripMenuItemShujuchuangkou
+            // 数据窗口ToolStripMenuItem
             // 
-            this.ToolStripMenuItemShujuchuangkou.BackColor = System.Drawing.Color.Transparent;
-            this.ToolStripMenuItemShujuchuangkou.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSeparator1,
-            this.数据看板ToolStripMenuItem});
-            this.ToolStripMenuItemShujuchuangkou.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ToolStripMenuItemShujuchuangkou.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
-            this.ToolStripMenuItemShujuchuangkou.Name = "ToolStripMenuItemShujuchuangkou";
-            this.ToolStripMenuItemShujuchuangkou.Size = new System.Drawing.Size(122, 28);
-            this.ToolStripMenuItemShujuchuangkou.Text = "数据看板";
-            this.ToolStripMenuItemShujuchuangkou.Click += new System.EventHandler(this.ToolStripMenuItemShujuchuangkou_Click);
+            this.数据窗口ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.数据窗口ToolStripMenuItem.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.数据窗口ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.数据窗口ToolStripMenuItem.Name = "数据窗口ToolStripMenuItem";
+            this.数据窗口ToolStripMenuItem.Size = new System.Drawing.Size(101, 23);
+            this.数据窗口ToolStripMenuItem.Text = "数据窗口";
             // 
-            // toolStripSeparator1
+            // 专题信息ToolStripMenuItem
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.专题信息ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.专题信息ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.植被适宜性ToolStripMenuItem,
+            this.土壤侵蚀性ToolStripMenuItem,
+            this.大气污染检测ToolStripMenuItem,
+            this.水文分析ToolStripMenuItem});
+            this.专题信息ToolStripMenuItem.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.专题信息ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.专题信息ToolStripMenuItem.Name = "专题信息ToolStripMenuItem";
+            this.专题信息ToolStripMenuItem.Size = new System.Drawing.Size(101, 23);
+            this.专题信息ToolStripMenuItem.Text = "专题信息";
             // 
-            // 数据看板ToolStripMenuItem
+            // 植被适宜性ToolStripMenuItem
             // 
-            this.数据看板ToolStripMenuItem.ForeColor = System.Drawing.Color.ForestGreen;
-            this.数据看板ToolStripMenuItem.Name = "数据看板ToolStripMenuItem";
-            this.数据看板ToolStripMenuItem.Size = new System.Drawing.Size(180, 28);
-            this.数据看板ToolStripMenuItem.Text = "编辑数据";
-            this.数据看板ToolStripMenuItem.Click += new System.EventHandler(this.数据看板ToolStripMenuItem_Click);
+            this.植被适宜性ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.植被适宜性ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.植被适宜性ToolStripMenuItem.Name = "植被适宜性ToolStripMenuItem";
+            this.植被适宜性ToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.植被适宜性ToolStripMenuItem.Text = "植被适宜性";
+            this.植被适宜性ToolStripMenuItem.Click += new System.EventHandler(this.植被适宜性ToolStripMenuItem_Click);
             // 
-            // ToolStripMenuItemZhuangtixinxi
+            // 土壤侵蚀性ToolStripMenuItem
             // 
-            this.ToolStripMenuItemZhuangtixinxi.BackColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemZhuangtixinxi.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemZhubeishiyixing,
-            this.ToolStripMenuItemTuranqinranxing,
-            this.ToolStripMenuItemDaqiwuranjiance,
-            this.ToolStripMenuItemShuiwenfenxi});
-            this.ToolStripMenuItemZhuangtixinxi.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ToolStripMenuItemZhuangtixinxi.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
-            this.ToolStripMenuItemZhuangtixinxi.Name = "ToolStripMenuItemZhuangtixinxi";
-            this.ToolStripMenuItemZhuangtixinxi.Size = new System.Drawing.Size(122, 28);
-            this.ToolStripMenuItemZhuangtixinxi.Text = "专题信息";
+            this.土壤侵蚀性ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.土壤侵蚀性ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.土壤侵蚀性ToolStripMenuItem.Name = "土壤侵蚀性ToolStripMenuItem";
+            this.土壤侵蚀性ToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.土壤侵蚀性ToolStripMenuItem.Text = "水土侵蚀性";
+            this.土壤侵蚀性ToolStripMenuItem.Click += new System.EventHandler(this.土壤侵蚀性ToolStripMenuItem_Click);
             // 
-            // ToolStripMenuItemZhubeishiyixing
+            // 大气污染检测ToolStripMenuItem
             // 
-            this.ToolStripMenuItemZhubeishiyixing.BackColor = System.Drawing.SystemColors.Control;
-            this.ToolStripMenuItemZhubeishiyixing.ForeColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemZhubeishiyixing.Name = "ToolStripMenuItemZhubeishiyixing";
-            this.ToolStripMenuItemZhubeishiyixing.Size = new System.Drawing.Size(230, 28);
-            this.ToolStripMenuItemZhubeishiyixing.Text = "植被适宜性";
-            this.ToolStripMenuItemZhubeishiyixing.Click += new System.EventHandler(this.植被适宜性ToolStripMenuItem_Click);
+            this.大气污染检测ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.大气污染检测ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.大气污染检测ToolStripMenuItem.Name = "大气污染检测ToolStripMenuItem";
+            this.大气污染检测ToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.大气污染检测ToolStripMenuItem.Text = "大气污染检测";
+            this.大气污染检测ToolStripMenuItem.Click += new System.EventHandler(this.大气污染检测ToolStripMenuItem_Click);
             // 
-            // ToolStripMenuItemTuranqinranxing
+            // 水文分析ToolStripMenuItem
             // 
-            this.ToolStripMenuItemTuranqinranxing.BackColor = System.Drawing.SystemColors.Control;
-            this.ToolStripMenuItemTuranqinranxing.ForeColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemTuranqinranxing.Name = "ToolStripMenuItemTuranqinranxing";
-            this.ToolStripMenuItemTuranqinranxing.Size = new System.Drawing.Size(230, 28);
-            this.ToolStripMenuItemTuranqinranxing.Text = "土壤侵蚀性";
-            this.ToolStripMenuItemTuranqinranxing.Click += new System.EventHandler(this.土壤侵蚀性ToolStripMenuItem_Click);
+            this.水文分析ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.水文分析ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.水文分析ToolStripMenuItem.Name = "水文分析ToolStripMenuItem";
+            this.水文分析ToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.水文分析ToolStripMenuItem.Text = "洪涝分析";
+            this.水文分析ToolStripMenuItem.Click += new System.EventHandler(this.水文分析ToolStripMenuItem_Click);
             // 
-            // ToolStripMenuItemDaqiwuranjiance
+            // 帮助文件ToolStripMenuItem
             // 
-            this.ToolStripMenuItemDaqiwuranjiance.BackColor = System.Drawing.SystemColors.Control;
-            this.ToolStripMenuItemDaqiwuranjiance.ForeColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemDaqiwuranjiance.Name = "ToolStripMenuItemDaqiwuranjiance";
-            this.ToolStripMenuItemDaqiwuranjiance.Size = new System.Drawing.Size(230, 28);
-            this.ToolStripMenuItemDaqiwuranjiance.Text = "大气污染检测";
-            this.ToolStripMenuItemDaqiwuranjiance.Click += new System.EventHandler(this.大气污染检测ToolStripMenuItem_Click);
+            this.帮助文件ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.帮助文件ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.建议ToolStripMenuItem,
+            this.种植建议ToolStripMenuItem,
+            this.帮助视频ToolStripMenuItem});
+            this.帮助文件ToolStripMenuItem.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.帮助文件ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.帮助文件ToolStripMenuItem.Name = "帮助文件ToolStripMenuItem";
+            this.帮助文件ToolStripMenuItem.Size = new System.Drawing.Size(101, 23);
+            this.帮助文件ToolStripMenuItem.Text = "帮助文件";
             // 
-            // ToolStripMenuItemShuiwenfenxi
+            // 建议ToolStripMenuItem
             // 
-            this.ToolStripMenuItemShuiwenfenxi.BackColor = System.Drawing.SystemColors.Control;
-            this.ToolStripMenuItemShuiwenfenxi.ForeColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemShuiwenfenxi.Name = "ToolStripMenuItemShuiwenfenxi";
-            this.ToolStripMenuItemShuiwenfenxi.Size = new System.Drawing.Size(230, 28);
-            this.ToolStripMenuItemShuiwenfenxi.Text = "水文分析";
-            this.ToolStripMenuItemShuiwenfenxi.Click += new System.EventHandler(this.水文分析ToolStripMenuItem_Click);
+            this.建议ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.建议ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.建议ToolStripMenuItem.Name = "建议ToolStripMenuItem";
+            this.建议ToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.建议ToolStripMenuItem.Text = "推荐权重";
             // 
-            // ToolStripMenuItemBangzhuwenjian
+            // 种植建议ToolStripMenuItem
             // 
-            this.ToolStripMenuItemBangzhuwenjian.BackColor = System.Drawing.Color.Transparent;
-            this.ToolStripMenuItemBangzhuwenjian.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItemJianyi,
-            this.ToolStripMenuItemZhongzhijianyi,
-            this.ToolStripMenuItemBangzhushipin});
-            this.ToolStripMenuItemBangzhuwenjian.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ToolStripMenuItemBangzhuwenjian.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
-            this.ToolStripMenuItemBangzhuwenjian.Name = "ToolStripMenuItemBangzhuwenjian";
-            this.ToolStripMenuItemBangzhuwenjian.Size = new System.Drawing.Size(122, 28);
-            this.ToolStripMenuItemBangzhuwenjian.Text = "帮助文件";
+            this.种植建议ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.种植建议ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.种植建议ToolStripMenuItem.Name = "种植建议ToolStripMenuItem";
+            this.种植建议ToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.种植建议ToolStripMenuItem.Text = "种植建议";
+            this.种植建议ToolStripMenuItem.Click += new System.EventHandler(this.种植建议ToolStripMenuItem_Click);
             // 
-            // ToolStripMenuItemJianyi
+            // 帮助视频ToolStripMenuItem
             // 
-            this.ToolStripMenuItemJianyi.BackColor = System.Drawing.SystemColors.Control;
-            this.ToolStripMenuItemJianyi.ForeColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemJianyi.Name = "ToolStripMenuItemJianyi";
-            this.ToolStripMenuItemJianyi.Size = new System.Drawing.Size(180, 28);
-            this.ToolStripMenuItemJianyi.Text = "推荐权重";
+            this.帮助视频ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.帮助视频ToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(248)))), ((int)(((byte)(235)))));
+            this.帮助视频ToolStripMenuItem.Name = "帮助视频ToolStripMenuItem";
+            this.帮助视频ToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
+            this.帮助视频ToolStripMenuItem.Text = "帮助视频";
             // 
-            // ToolStripMenuItemZhongzhijianyi
+            // menuStrip2
             // 
-            this.ToolStripMenuItemZhongzhijianyi.BackColor = System.Drawing.SystemColors.Control;
-            this.ToolStripMenuItemZhongzhijianyi.ForeColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemZhongzhijianyi.Name = "ToolStripMenuItemZhongzhijianyi";
-            this.ToolStripMenuItemZhongzhijianyi.Size = new System.Drawing.Size(180, 28);
-            this.ToolStripMenuItemZhongzhijianyi.Text = "种植建议";
-            this.ToolStripMenuItemZhongzhijianyi.Click += new System.EventHandler(this.种植建议ToolStripMenuItem_Click);
+            this.menuStrip2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(87)))), ((int)(((byte)(48)))));
+            this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.地图ToolStripMenuItem,
+            this.添加数据ToolStripMenuItem,
+            this.书签ToolStripMenuItem,
+            this.量测ToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(3, 40);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(196, 24);
+            this.menuStrip2.TabIndex = 3;
+            this.menuStrip2.Text = "menuStrip2";
             // 
-            // ToolStripMenuItemBangzhushipin
+            // 地图ToolStripMenuItem
             // 
-            this.ToolStripMenuItemBangzhushipin.BackColor = System.Drawing.SystemColors.Control;
-            this.ToolStripMenuItemBangzhushipin.ForeColor = System.Drawing.Color.ForestGreen;
-            this.ToolStripMenuItemBangzhushipin.Name = "ToolStripMenuItemBangzhushipin";
-            this.ToolStripMenuItemBangzhushipin.Size = new System.Drawing.Size(180, 28);
-            this.ToolStripMenuItemBangzhushipin.Text = "帮助视频";
+            this.地图ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.导出ToolStripMenuItem});
+            this.地图ToolStripMenuItem.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.地图ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.地图ToolStripMenuItem.Name = "地图ToolStripMenuItem";
+            this.地图ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.地图ToolStripMenuItem.Text = "地图";
             // 
-            // panel2
+            // 导出ToolStripMenuItem
             // 
-            this.panel2.BackColor = System.Drawing.Color.YellowGreen;
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Location = new System.Drawing.Point(0, -4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(100, 81);
-            this.panel2.TabIndex = 0;
+            this.导出ToolStripMenuItem.Name = "导出ToolStripMenuItem";
+            this.导出ToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
+            this.导出ToolStripMenuItem.Text = "导出";
+            this.导出ToolStripMenuItem.Click += new System.EventHandler(this.导出ToolStripMenuItem_Click);
             // 
-            // pictureBox1
+            // 添加数据ToolStripMenuItem
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 74);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.添加数据ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.加载shapefile文件ToolStripMenuItem,
+            this.加载JPG文件ToolStripMenuItem});
+            this.添加数据ToolStripMenuItem.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.添加数据ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.添加数据ToolStripMenuItem.Name = "添加数据ToolStripMenuItem";
+            this.添加数据ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.添加数据ToolStripMenuItem.Text = "添加数据";
+            // 
+            // 加载shapefile文件ToolStripMenuItem
+            // 
+            this.加载shapefile文件ToolStripMenuItem.Name = "加载shapefile文件ToolStripMenuItem";
+            this.加载shapefile文件ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.加载shapefile文件ToolStripMenuItem.Text = "加载shapefile文件";
+            this.加载shapefile文件ToolStripMenuItem.Click += new System.EventHandler(this.加载shapefile文件ToolStripMenuItem_Click);
+            // 
+            // 加载JPG文件ToolStripMenuItem
+            // 
+            this.加载JPG文件ToolStripMenuItem.Name = "加载JPG文件ToolStripMenuItem";
+            this.加载JPG文件ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.加载JPG文件ToolStripMenuItem.Text = "加载栅格文件";
+            this.加载JPG文件ToolStripMenuItem.Click += new System.EventHandler(this.加载JPG文件ToolStripMenuItem_Click);
+            // 
+            // 书签ToolStripMenuItem
+            // 
+            this.书签ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.新增书签ToolStripMenuItem,
+            this.管理书签ToolStripMenuItem});
+            this.书签ToolStripMenuItem.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.书签ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.书签ToolStripMenuItem.Name = "书签ToolStripMenuItem";
+            this.书签ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.书签ToolStripMenuItem.Text = "书签";
+            // 
+            // 新增书签ToolStripMenuItem
+            // 
+            this.新增书签ToolStripMenuItem.Name = "新增书签ToolStripMenuItem";
+            this.新增书签ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.新增书签ToolStripMenuItem.Text = "新增书签";
+            this.新增书签ToolStripMenuItem.Click += new System.EventHandler(this.新增书签ToolStripMenuItem_Click);
+            // 
+            // 管理书签ToolStripMenuItem
+            // 
+            this.管理书签ToolStripMenuItem.Name = "管理书签ToolStripMenuItem";
+            this.管理书签ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.管理书签ToolStripMenuItem.Text = "管理书签";
+            this.管理书签ToolStripMenuItem.Click += new System.EventHandler(this.管理书签ToolStripMenuItem_Click);
+            // 
+            // 量测ToolStripMenuItem
+            // 
+            this.量测ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.距离量测ToolStripMenuItem,
+            this.面积量测ToolStripMenuItem});
+            this.量测ToolStripMenuItem.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.量测ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.量测ToolStripMenuItem.Name = "量测ToolStripMenuItem";
+            this.量测ToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.量测ToolStripMenuItem.Text = "量测";
+            // 
+            // 距离量测ToolStripMenuItem
+            // 
+            this.距离量测ToolStripMenuItem.Name = "距离量测ToolStripMenuItem";
+            this.距离量测ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.距离量测ToolStripMenuItem.Text = "距离量测";
+            this.距离量测ToolStripMenuItem.Click += new System.EventHandler(this.距离量测ToolStripMenuItem_Click);
+            // 
+            // 面积量测ToolStripMenuItem
+            // 
+            this.面积量测ToolStripMenuItem.Name = "面积量测ToolStripMenuItem";
+            this.面积量测ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
+            this.面积量测ToolStripMenuItem.Text = "面积量测";
+            this.面积量测ToolStripMenuItem.Click += new System.EventHandler(this.面积量测ToolStripMenuItem_Click);
+            // 
+            // axToolbarControl1
+            // 
+            this.axToolbarControl1.Location = new System.Drawing.Point(3, 9);
+            this.axToolbarControl1.Name = "axToolbarControl1";
+            this.axToolbarControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axToolbarControl1.OcxState")));
+            this.axToolbarControl1.Size = new System.Drawing.Size(736, 28);
+            this.axToolbarControl1.TabIndex = 1;
+            this.axToolbarControl1.OnMouseDown += new ESRI.ArcGIS.Controls.IToolbarControlEvents_Ax_OnMouseDownEventHandler(this.axToolbarControl1_OnMouseDown);
             // 
             // splitContainer2
             // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -339,293 +386,266 @@
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.axLicenseControl1);
-            this.splitContainer2.Panel2.Controls.Add(this.panelShuqian);
+            this.splitContainer2.Panel2.Controls.Add(this.axLicenseControl2);
+            this.splitContainer2.Panel2.Controls.Add(this.panel2);
             this.splitContainer2.Panel2.Controls.Add(this.statusStrip1);
-            this.splitContainer2.Panel2.Controls.Add(this.axMapControlZhu);
-            this.splitContainer2.Panel2.Controls.Add(this.axLicenseControl);
-            this.splitContainer2.Size = new System.Drawing.Size(1502, 971);
-            this.splitContainer2.SplitterDistance = 288;
-            this.splitContainer2.SplitterWidth = 5;
+            this.splitContainer2.Panel2.Controls.Add(this.axMapControl1);
+            this.splitContainer2.Panel2.Controls.Add(this.axLicenseControl1);
+            this.splitContainer2.Size = new System.Drawing.Size(1146, 491);
+            this.splitContainer2.SplitterDistance = 264;
             this.splitContainer2.TabIndex = 0;
             // 
             // splitContainer3
             // 
             this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer3.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer3.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer3.Name = "splitContainer3";
             this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer3.Panel1
             // 
-            this.splitContainer3.Panel1.Controls.Add(this.axMapControlYingyan);
+            this.splitContainer3.Panel1.Controls.Add(this.axMapControl2);
             this.splitContainer3.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer3_Panel1_Paint);
             // 
             // splitContainer3.Panel2
             // 
-            this.splitContainer3.Panel2.Controls.Add(this.groupBoxJichumianban);
-            this.splitContainer3.Size = new System.Drawing.Size(288, 971);
-            this.splitContainer3.SplitterDistance = 201;
-            this.splitContainer3.SplitterWidth = 5;
+            this.splitContainer3.Panel2.Controls.Add(this.groupBox1);
+            this.splitContainer3.Size = new System.Drawing.Size(264, 491);
+            this.splitContainer3.SplitterDistance = 152;
             this.splitContainer3.TabIndex = 0;
             // 
-            // axMapControlYingyan
+            // axMapControl2
             // 
-            this.axMapControlYingyan.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.axMapControlYingyan.Location = new System.Drawing.Point(0, 0);
-            this.axMapControlYingyan.Margin = new System.Windows.Forms.Padding(4);
-            this.axMapControlYingyan.Name = "axMapControlYingyan";
-            this.axMapControlYingyan.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMapControlYingyan.OcxState")));
-            this.axMapControlYingyan.Size = new System.Drawing.Size(288, 201);
-            this.axMapControlYingyan.TabIndex = 0;
-            this.axMapControlYingyan.OnMouseDown += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseDownEventHandler(this.axMapControl2_OnMouseDown);
-            this.axMapControlYingyan.OnMapReplaced += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMapReplacedEventHandler(this.axMapControl2_OnMapReplaced);
+            this.axMapControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axMapControl2.Location = new System.Drawing.Point(0, 0);
+            this.axMapControl2.Name = "axMapControl2";
+            this.axMapControl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMapControl2.OcxState")));
+            this.axMapControl2.Size = new System.Drawing.Size(264, 152);
+            this.axMapControl2.TabIndex = 0;
+            this.axMapControl2.OnMouseDown += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseDownEventHandler(this.axMapControl2_OnMouseDown);
+            this.axMapControl2.OnMapReplaced += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMapReplacedEventHandler(this.axMapControl2_OnMapReplaced);
             // 
-            // groupBoxJichumianban
+            // groupBox1
             // 
-            this.groupBoxJichumianban.BackColor = System.Drawing.Color.White;
-            this.groupBoxJichumianban.Controls.Add(this.PanelJichutuceng);
-            this.groupBoxJichumianban.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxJichumianban.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.groupBoxJichumianban.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(87)))), ((int)(((byte)(48)))));
-            this.groupBoxJichumianban.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxJichumianban.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBoxJichumianban.Name = "groupBoxJichumianban";
-            this.groupBoxJichumianban.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxJichumianban.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.groupBoxJichumianban.Size = new System.Drawing.Size(288, 765);
-            this.groupBoxJichumianban.TabIndex = 0;
-            this.groupBoxJichumianban.TabStop = false;
-            this.groupBoxJichumianban.Text = "基础面板";
-            this.groupBoxJichumianban.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // PanelJichutuceng
-            // 
-            this.PanelJichutuceng.BackColor = System.Drawing.Color.White;
-            this.PanelJichutuceng.Controls.Add(this.pictureBox4);
-            this.PanelJichutuceng.Controls.Add(this.pictureBox2);
-            this.PanelJichutuceng.Controls.Add(this.pictureBox6);
-            this.PanelJichutuceng.Controls.Add(this.pictureBox3);
-            this.PanelJichutuceng.Controls.Add(this.button1);
-            this.PanelJichutuceng.Controls.Add(this.button3);
-            this.PanelJichutuceng.Controls.Add(this.button2);
-            this.PanelJichutuceng.Controls.Add(this.ButtonXingzhengfanwei);
-            this.PanelJichutuceng.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelJichutuceng.Location = new System.Drawing.Point(4, 32);
-            this.PanelJichutuceng.Name = "PanelJichutuceng";
-            this.PanelJichutuceng.Size = new System.Drawing.Size(280, 382);
-            this.PanelJichutuceng.TabIndex = 11;
+            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.pictureBox2);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(87)))), ((int)(((byte)(48)))));
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.groupBox1.Size = new System.Drawing.Size(264, 335);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "基础面板";
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(19, 206);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Location = new System.Drawing.Point(157, 58);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(97, 72);
+            this.pictureBox4.Size = new System.Drawing.Size(58, 58);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 19;
+            this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(153, 206);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(97, 72);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(153, 30);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(97, 74);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 17;
-            this.pictureBox6.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(16, 30);
+            this.pictureBox3.Location = new System.Drawing.Point(42, 209);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 74);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.Size = new System.Drawing.Size(58, 58);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
             // 
-            // button1
+            // pictureBox2
             // 
-            this.button1.Font = new System.Drawing.Font("黑体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(7, 299);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 50);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "气候查询";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(157, 209);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(58, 58);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button4.Location = new System.Drawing.Point(29, 273);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(86, 27);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "河流现状";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("黑体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(142, 299);
+            this.button3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button3.Location = new System.Drawing.Point(141, 273);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(117, 50);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "河流分布";
+            this.button3.Size = new System.Drawing.Size(86, 27);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "降水查询";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click_2);
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("黑体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(142, 126);
+            this.button2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button2.Location = new System.Drawing.Point(141, 122);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(117, 48);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "植被覆盖";
+            this.button2.Size = new System.Drawing.Size(86, 27);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "植被分布";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // ButtonXingzhengfanwei
+            // button1
             // 
-            this.ButtonXingzhengfanwei.Font = new System.Drawing.Font("黑体", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ButtonXingzhengfanwei.Location = new System.Drawing.Point(7, 126);
-            this.ButtonXingzhengfanwei.Name = "ButtonXingzhengfanwei";
-            this.ButtonXingzhengfanwei.Size = new System.Drawing.Size(118, 48);
-            this.ButtonXingzhengfanwei.TabIndex = 8;
-            this.ButtonXingzhengfanwei.Text = "行政范围";
-            this.ButtonXingzhengfanwei.UseVisualStyleBackColor = true;
-            this.ButtonXingzhengfanwei.Click += new System.EventHandler(this.button11_Click);
+            this.button1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Location = new System.Drawing.Point(29, 122);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 27);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "基础图层";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(42, 58);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(58, 58);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.button7);
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.listBox1);
+            this.panel2.Location = new System.Drawing.Point(28, 77);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 228);
+            this.panel2.TabIndex = 4;
+            this.panel2.Visible = false;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(52, 192);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(90, 22);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "移除所选";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(52, 154);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(90, 24);
+            this.button6.TabIndex = 2;
+            this.button6.Text = "移除全部";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(52, 115);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(90, 26);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "定位至";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 12;
+            this.listBox1.Location = new System.Drawing.Point(16, 11);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(167, 100);
+            this.listBox1.TabIndex = 0;
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Location = new System.Drawing.Point(0, 469);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(878, 22);
+            this.statusStrip1.TabIndex = 3;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // axMapControl1
+            // 
+            this.axMapControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.axMapControl1.Location = new System.Drawing.Point(0, 0);
+            this.axMapControl1.Name = "axMapControl1";
+            this.axMapControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMapControl1.OcxState")));
+            this.axMapControl1.Size = new System.Drawing.Size(878, 491);
+            this.axMapControl1.TabIndex = 2;
+            this.axMapControl1.OnMouseDown += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseDownEventHandler(this.axMapControl1_OnMouseDown);
+            this.axMapControl1.OnMouseMove += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseMoveEventHandler(this.axMapControl1_OnMouseMove);
+            this.axMapControl1.OnDoubleClick += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnDoubleClickEventHandler(this.axMapControl1_OnDoubleClick);
+            this.axMapControl1.OnMapReplaced += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMapReplacedEventHandler(this.axMapControl1_OnMapReplaced);
             // 
             // axLicenseControl1
             // 
             this.axLicenseControl1.Enabled = true;
-            this.axLicenseControl1.Location = new System.Drawing.Point(1038, 566);
+            this.axLicenseControl1.Location = new System.Drawing.Point(788, 433);
             this.axLicenseControl1.Name = "axLicenseControl1";
             this.axLicenseControl1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axLicenseControl1.OcxState")));
             this.axLicenseControl1.Size = new System.Drawing.Size(32, 32);
-            this.axLicenseControl1.TabIndex = 5;
+            this.axLicenseControl1.TabIndex = 1;
             // 
-            // panelShuqian
+            // axLicenseControl2
             // 
-            this.panelShuqian.Controls.Add(this.buttonYichusuoxuan);
-            this.panelShuqian.Controls.Add(this.buttonYichuquanbu);
-            this.panelShuqian.Controls.Add(this.buttonDingwei);
-            this.panelShuqian.Controls.Add(this.listBoxShuqian);
-            this.panelShuqian.Location = new System.Drawing.Point(31, 98);
-            this.panelShuqian.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelShuqian.Name = "panelShuqian";
-            this.panelShuqian.Size = new System.Drawing.Size(267, 285);
-            this.panelShuqian.TabIndex = 4;
-            this.panelShuqian.Visible = false;
-            // 
-            // buttonYichusuoxuan
-            // 
-            this.buttonYichusuoxuan.Location = new System.Drawing.Point(69, 240);
-            this.buttonYichusuoxuan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonYichusuoxuan.Name = "buttonYichusuoxuan";
-            this.buttonYichusuoxuan.Size = new System.Drawing.Size(120, 28);
-            this.buttonYichusuoxuan.TabIndex = 3;
-            this.buttonYichusuoxuan.Text = "移除所选";
-            this.buttonYichusuoxuan.UseVisualStyleBackColor = true;
-            this.buttonYichusuoxuan.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // buttonYichuquanbu
-            // 
-            this.buttonYichuquanbu.Location = new System.Drawing.Point(69, 192);
-            this.buttonYichuquanbu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonYichuquanbu.Name = "buttonYichuquanbu";
-            this.buttonYichuquanbu.Size = new System.Drawing.Size(120, 30);
-            this.buttonYichuquanbu.TabIndex = 2;
-            this.buttonYichuquanbu.Text = "移除全部";
-            this.buttonYichuquanbu.UseVisualStyleBackColor = true;
-            this.buttonYichuquanbu.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // buttonDingwei
-            // 
-            this.buttonDingwei.Location = new System.Drawing.Point(69, 144);
-            this.buttonDingwei.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.buttonDingwei.Name = "buttonDingwei";
-            this.buttonDingwei.Size = new System.Drawing.Size(120, 32);
-            this.buttonDingwei.TabIndex = 1;
-            this.buttonDingwei.Text = "定位至";
-            this.buttonDingwei.UseVisualStyleBackColor = true;
-            this.buttonDingwei.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // listBoxShuqian
-            // 
-            this.listBoxShuqian.FormattingEnabled = true;
-            this.listBoxShuqian.ItemHeight = 15;
-            this.listBoxShuqian.Location = new System.Drawing.Point(23, 16);
-            this.listBoxShuqian.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.listBoxShuqian.Name = "listBoxShuqian";
-            this.listBoxShuqian.Size = new System.Drawing.Size(221, 124);
-            this.listBoxShuqian.TabIndex = 0;
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 949);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1209, 22);
-            this.statusStrip1.TabIndex = 3;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // axMapControlZhu
-            // 
-            this.axMapControlZhu.Location = new System.Drawing.Point(0, 0);
-            this.axMapControlZhu.Margin = new System.Windows.Forms.Padding(4);
-            this.axMapControlZhu.Name = "axMapControlZhu";
-            this.axMapControlZhu.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axMapControlZhu.OcxState")));
-            this.axMapControlZhu.Size = new System.Drawing.Size(1209, 968);
-            this.axMapControlZhu.TabIndex = 2;
-            this.axMapControlZhu.OnMouseDown += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseDownEventHandler(this.axMapControl1_OnMouseDown);
-            this.axMapControlZhu.OnMouseMove += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMouseMoveEventHandler(this.axMapControl1_OnMouseMove);
-            this.axMapControlZhu.OnDoubleClick += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnDoubleClickEventHandler(this.axMapControl1_OnDoubleClick);
-            this.axMapControlZhu.OnMapReplaced += new ESRI.ArcGIS.Controls.IMapControlEvents2_Ax_OnMapReplacedEventHandler(this.axMapControl1_OnMapReplaced);
-            // 
-            // axLicenseControl
-            // 
-            this.axLicenseControl.Enabled = true;
-            this.axLicenseControl.Location = new System.Drawing.Point(788, 433);
-            this.axLicenseControl.Margin = new System.Windows.Forms.Padding(4);
-            this.axLicenseControl.Name = "axLicenseControl";
-            this.axLicenseControl.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axLicenseControl.OcxState")));
-            this.axLicenseControl.Size = new System.Drawing.Size(32, 32);
-            this.axLicenseControl.TabIndex = 1;
+            this.axLicenseControl2.Enabled = true;
+            this.axLicenseControl2.Location = new System.Drawing.Point(846, 433);
+            this.axLicenseControl2.Name = "axLicenseControl2";
+            this.axLicenseControl2.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axLicenseControl2.OcxState")));
+            this.axLicenseControl2.Size = new System.Drawing.Size(32, 32);
+            this.axLicenseControl2.TabIndex = 5;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1432, 706);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(142)))), ((int)(((byte)(97)))));
+            this.ClientSize = new System.Drawing.Size(1146, 571);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "农林信息系统";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axToolbarControl1)).EndInit();
             this.splitContainer2.Panel1.ResumeLayout(false);
             this.splitContainer2.Panel2.ResumeLayout(false);
             this.splitContainer2.Panel2.PerformLayout();
@@ -635,17 +655,16 @@
             this.splitContainer3.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axMapControlYingyan)).EndInit();
-            this.groupBoxJichumianban.ResumeLayout(false);
-            this.PanelJichutuceng.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axMapControl2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.axMapControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).EndInit();
-            this.panelShuqian.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.axMapControlZhu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -654,46 +673,52 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.SplitContainer splitContainer1;
+        private ESRI.ArcGIS.Controls.AxToolbarControl axToolbarControl1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.SplitContainer splitContainer3;
-        private ESRI.ArcGIS.Controls.AxLicenseControl axLicenseControl;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemShujuchuangkou;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemZhuangtixinxi;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemZhubeishiyixing;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemTuranqinranxing;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemDaqiwuranjiance;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemShuiwenfenxi;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemBangzhuwenjian;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemJianyi;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemZhongzhijianyi;
-        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemBangzhushipin;
-        private ESRI.ArcGIS.Controls.AxMapControl axMapControlZhu;
-        private ESRI.ArcGIS.Controls.AxMapControl axMapControlYingyan;
-        private System.Windows.Forms.GroupBox groupBoxJichumianban;
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.Panel panelShuqian;
-        private System.Windows.Forms.Button buttonYichusuoxuan;
-        private System.Windows.Forms.Button buttonYichuquanbu;
-        private System.Windows.Forms.Button buttonDingwei;
-        private System.Windows.Forms.ListBox listBoxShuqian;
-        private System.Windows.Forms.Panel PanelJichutuceng;
-        private System.Windows.Forms.Button ButtonXingzhengfanwei;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel2;
+        private ESRI.ArcGIS.Controls.AxLicenseControl axLicenseControl1;
+        private System.Windows.Forms.ToolStripMenuItem 数据窗口ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 专题信息ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 植被适宜性ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 土壤侵蚀性ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 大气污染检测ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 水文分析ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 帮助文件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 建议ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 种植建议ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 帮助视频ToolStripMenuItem;
+        private ESRI.ArcGIS.Controls.AxMapControl axMapControl1;
+        private ESRI.ArcGIS.Controls.AxMapControl axMapControl2;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.ToolStripMenuItem 数据看板ToolStripMenuItem;
-        private ESRI.ArcGIS.Controls.AxLicenseControl axLicenseControl1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem 地图ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 添加数据ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 加载shapefile文件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 书签ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 新增书签ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 管理书签ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 量测ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 距离量测ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 面积量测ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 导出ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 加载JPG文件ToolStripMenuItem;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.ListBox listBox1;
+        private ESRI.ArcGIS.Controls.AxLicenseControl axLicenseControl2;
 
 
     }
